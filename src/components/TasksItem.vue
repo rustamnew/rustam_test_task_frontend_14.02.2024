@@ -257,14 +257,16 @@ function closeModal() {
                 box-shadow: 0px 8px 16px 0px #0000000F;
                 background-color: #fff;
                 border-radius: 4px;
-                padding: 8px 0;
+                padding: 5px 0;
+                border: 1px solid #E3E5E8;
 
                 button.item {
-                    padding: 6px 12px;
+                    padding: 5px 11px 3px;
                     width: 100%;
                     height: unset;
 
                     display: flex;
+                    align-items: center;
                     justify-content: flex-start;
 
                     &:hover {
